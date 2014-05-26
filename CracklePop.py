@@ -4,7 +4,7 @@
 # Write a program that prints out the numbers 1 to 100 (inclusive). If the number is divisible by 3, print Crackle instead of the number. If it is divisible by 5, print Pop. if it is divisible by both 3 and 5, print CracklePop.
 
 
-def cracklePop_100():
+def cracklePopOneHundred():
 	for num in range(1, 101):
 		print cracklePop(num)
 
@@ -18,6 +18,6 @@ def cracklePop(num):
 	else:
 		return num
 
-cracklePop_100()
+cracklePopOneHundred()
 
 
